@@ -43,6 +43,6 @@ void CreateGenerators(int count) {
 }
 
 int main(int argc, char *argv[]) {
-  CreateGenerators(1);
+  CreateGenerators(10);
   return 0;
 }

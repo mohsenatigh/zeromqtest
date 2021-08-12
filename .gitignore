@@ -1,6 +1,6 @@
 __build
-*bin
-
+*.bin
+.vscode
 # Prerequisites
 *.d
 
