@@ -1,0 +1,7 @@
+set(NAME client.bin)
+project (${NAME})
+AUX_SOURCE_DIRECTORY(. CTR_SOURCES)
+AUX_SOURCE_DIRECTORY(../common/ CTR_SOURCES)
+SET_SOURCE_FILES_PROPERTIES( ${CTR_SOURCES} PROPERTIES LANGUAGE CXX )
+add_executable(${NAME} ${CTR_SOURCES})
+target_link_libraries(${NAME} pthread protobuf zmq zmqpp)

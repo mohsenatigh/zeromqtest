@@ -1,3 +1,6 @@
+__build
+*bin
+
 # Prerequisites
 *.d
 
